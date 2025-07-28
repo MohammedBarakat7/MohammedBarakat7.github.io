@@ -73,13 +73,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-completed-an-nsf-funded-online-research-experience-for-undergraduates-o-reu-at-texas-a-amp-amp-m-university-focusing-on-nanoscale-deformation-in-silicon-using-molecular-dynamics-and-machine-learned-potentials",
+          title: 'Completed an NSF-funded Online Research Experience for Undergraduates (O-REU) at Texas A&amp;amp;amp;M University,...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
