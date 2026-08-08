@@ -11,7 +11,7 @@ A senior design capstone project tasked with designing a device that simulates a
 
 The device emits three key sensory cues a baby would associate with its mother: **sound, scent, and haptic touch**. It runs on a **Raspberry Pi Pico 2 W** and connects over Wi-Fi to a companion mobile app, letting the mother remotely activate any of the three sensory outputs from outside the NICU.
 
-The project was featured in local news coverage.
+The project was [featured on KLTV](https://www.kltv.com/2026/04/14/ut-tyler-engineering-seniors-showcase-projects-companies/).
 
 **Highlights:**
 
