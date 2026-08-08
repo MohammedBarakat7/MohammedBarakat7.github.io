@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Mohammed Barakat",
-    "label": "Mechanical Engineer | AI & ML Researcher",
+    "label": "PhD Student, Mechanical Engineering @ Carnegie Mellon University",
     "image": "",
     "email": "mohammeddbarakat7@gmail.com",
     "phone": "",
     "url": "https://mohammedbarakat7.github.io",
-    "summary": "Mechanical Engineering graduate from the University of Texas at Tyler (GPA 3.9, President's List) with a focus on applying artificial intelligence and machine learning to mechanical engineering problems. Experience in computational modeling, embedded systems, CAD, and AI-driven engineering design.",
+    "summary": "Incoming PhD student in Mechanical Engineering at Carnegie Mellon University (Visual Design and Engineering Lab, advised by Prof. Levent Burak Kara), focused on a graph-native adaptive manufacturing compiler integrating AI agent orchestration, constraint propagation, and GNN surrogates. B.S. Mechanical Engineering from the University of Texas at Tyler (GPA 3.95, President's List).",
     "location": {
-      "city": "Tyler",
+      "city": "Pittsburgh",
       "countryCode": "US",
-      "region": "Texas"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
@@ -26,6 +26,18 @@
     ]
   },
   "work": [
+    {
+      "name": "Carnegie Mellon University, Visual Design and Engineering Lab (VDEL)",
+      "position": "PhD Researcher",
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "summary": "Advised by Prof. Levent Burak Kara. Developing a graph-native adaptive manufacturing compiler: an executable SysML v2 framework integrating AI agent orchestration, constraint propagation, and GNN surrogates across requirements, structure, fabrication, and supplier layers.",
+      "highlights": [
+        "Executable systems modeling with SysML v2",
+        "AI agent orchestration for design-to-fabrication workflows",
+        "GNN surrogates for manufacturability and cost feasibility"
+      ]
+    },
     {
       "name": "University of Texas at Tyler, College of Engineering",
       "position": "Undergraduate Research Assistant",
@@ -51,6 +63,17 @@
     }
   ],
   "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, Pennsylvania",
+      "url": "https://www.cmu.edu",
+      "area": "Mechanical Engineering",
+      "studyType": "PhD",
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
     {
       "institution": "University of Texas at Tyler",
       "location": "Tyler, Texas",
