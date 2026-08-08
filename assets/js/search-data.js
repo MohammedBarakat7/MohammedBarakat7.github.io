@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research and engineering projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -37,35 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
@@ -73,57 +45,42 @@ ninja.data = [{
             },},{id: "news-completed-an-nsf-funded-online-research-experience-for-undergraduates-o-reu-at-texas-a-amp-amp-m-university-focusing-on-nanoscale-deformation-in-silicon-using-molecular-dynamics-and-machine-learned-potentials",
           title: 'Completed an NSF-funded Online Research Experience for Undergraduates (O-REU) at Texas A&amp;amp;amp;M University,...',
           description: "",
-          section: "News",},{id: "projects-md-simulation-with-machine-learning-potential",
-          title: 'MD Simulation with Machine Learning Potential',
-          description: "Completed as part of NSF TAMU OREU Program",
+          section: "News",},{id: "news-starting-my-phd-in-mechanical-engineering-at-carnegie-mellon-university-advised-by-prof-levent-burak-kara-in-the-visual-design-and-engineering-lab-vdel",
+          title: 'Starting my PhD in Mechanical Engineering at Carnegie Mellon University, advised by Prof....',
+          description: "",
+          section: "News",},{id: "projects-graph-native-adaptive-manufacturing-compiler",
+          title: 'Graph-Native Adaptive Manufacturing Compiler',
+          description: "PhD research, VDEL @ Carnegie Mellon University, advised by Prof. Levent Burak Kara",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_manufacturing_compiler.html";
+            },},{id: "projects-nicu-sensory-bonding-device",
+          title: 'NICU Sensory Bonding Device',
+          description: "Senior capstone project, University of Texas at Tyler",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_nicu_device.html";
+            },},{id: "projects-ann-integrated-desalination-system",
+          title: 'ANN-Integrated Desalination System',
+          description: "Undergraduate research, University of Texas at Tyler",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_desalination.html";
+            },},{id: "projects-md-simulation-with-machine-learned-potentials",
+          title: 'MD Simulation with Machine-Learned Potentials',
+          description: "NSF Online Research Experience for Undergraduates (O-REU), Texas A&amp;M University",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
+              window.location.href = "/projects/4_md_simulation.html";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%6F%68%61%6D%6D%65%64%64%62%61%72%61%6B%61%74%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/MohammedBarakat7", "_blank");
         },
       },{
         id: 'social-linkedin',
