@@ -4,7 +4,7 @@
     - name: Full Name
       value: Mohammed Barakat
     - name: Languages
-      value: English, Arabic
+      value: Arabic (fluent), English (fluent)
 
 - title: Education
   type: time_table
@@ -13,7 +13,7 @@
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: 2026 - present
       description:
-        - "Advisor: Prof. Levent Burak Kara, Visual Design and Engineering Lab (VDEL)"
+        - Visual Design and Engineering Lab (VDEL)
     - title: B.S. in Mechanical Engineering
       institution: University of Texas at Tyler, Tyler, TX
       year: 2022 - 2026
@@ -28,6 +28,7 @@
       institution: University of Texas at Tyler, College of Engineering
       year: 2023 - 2026
       description:
+        - Machine-learning-enhanced molecular dynamics simulation of nanoscale silicon deformation
         - Applied machine learning to CO2 sequestration and hydrogen storage research
         - Nanostructure modeling and simulation using LAMMPS, OVITO, Atomsk, and Wulffpack
     - title: Lab Assistant
@@ -37,6 +38,16 @@
         - Reverse-engineered industrial devices using SolidWorks and Autodesk Inventor
         - Supported lab operations and student projects
 
+- title: Leadership and Service
+  type: time_table
+  contents:
+    - title: President, Student Section
+      institution: American Society of Mechanical Engineers (ASME), University of Texas at Tyler
+      year: 2024 - 2025
+    - title: Member
+      institution: American Society of Mechanical Engineers (ASME)
+      year: 2023 - present
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -44,6 +55,9 @@
       items:
         - President's List, University of Texas at Tyler
         - Outstanding Student, College of Engineering
+    - year: 2025
+      items:
+        - NASA / Texas Space Grant Consortium Scholar
 
 - title: Certifications
   type: time_table
@@ -61,5 +75,5 @@
     - title: Applied AI for Engineering
       items:
         - AI-driven engineering design
-        - Machine learning for materials science
+        - Machine learning for computational modeling and simulation
         - Embedded systems and sensor integration

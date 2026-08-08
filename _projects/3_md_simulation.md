@@ -13,5 +13,7 @@ Completed as part of an NSF-funded Online Research Experience for Undergraduates
 
 **Highlights:**
 
-- Nanostructure modeling and simulation of deformation mechanisms
-- Applied machine learning potentials in place of classical force fields
+- Machine-learning-enhanced molecular dynamics simulation of nanoscale silicon deformation
+- Nanostructure modeling and analysis of deformation mechanisms
+
+[View the project poster](https://tinyurl.com/m7xk95z4) presented at Texas A&M University.
