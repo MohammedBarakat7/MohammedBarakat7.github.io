@@ -50,7 +50,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-nicu-sensory-bonding-device",
           title: 'NICU Sensory Bonding Device',
-          description: "Senior capstone project, University of Texas at Tyler",
+          description: "Senior capstone project, University of Texas at Tyler — team lead",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_nicu_device.html";
             },},{id: "projects-ann-integrated-desalination-system",
