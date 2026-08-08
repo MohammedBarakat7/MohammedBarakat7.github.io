@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-Mohammed Barakat is an incoming PhD student in Mechanical Engineering at Carnegie Mellon University, starting August 2026, advised by [Prof. Levent Burak Kara](https://www.meche.engineering.cmu.edu/directory/bios/kara-levent.html) in the Visual Design and Engineering Lab (VDEL). His research focuses on a graph-native adaptive manufacturing compiler: an executable SysML v2 framework that integrates AI agent orchestration, constraint propagation, and GNN surrogates across the requirements, structure, fabrication, and supplier layers of a manufacturing system.
+Mohammed Barakat is an incoming PhD student in Mechanical Engineering at Carnegie Mellon University, starting August 2026, advised by [Prof. Levent Burak Kara](https://www.meche.engineering.cmu.edu/directory/bios/kara-levent.html) in the Visual Design and Engineering Lab (VDEL).
 
 Mohammed graduated from the University of Texas at Tyler with a B.S. in Mechanical Engineering (GPA 3.95, President's List, Outstanding Student in the College of Engineering), where his work spanned computational modeling, embedded systems, and AI-driven engineering design. He served as President of the ASME student chapter and worked as an undergraduate research assistant and lab assistant in the College of Engineering.
 

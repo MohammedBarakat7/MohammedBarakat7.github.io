@@ -6,7 +6,7 @@
     "email": "mohammeddbarakat7@gmail.com",
     "phone": "",
     "url": "https://mohammedbarakat7.github.io",
-    "summary": "Incoming PhD student in Mechanical Engineering at Carnegie Mellon University (Visual Design and Engineering Lab, advised by Prof. Levent Burak Kara), focused on a graph-native adaptive manufacturing compiler integrating AI agent orchestration, constraint propagation, and GNN surrogates. B.S. Mechanical Engineering from the University of Texas at Tyler (GPA 3.95, President's List).",
+    "summary": "Incoming PhD student in Mechanical Engineering at Carnegie Mellon University (Visual Design and Engineering Lab, advised by Prof. Levent Burak Kara). B.S. Mechanical Engineering from the University of Texas at Tyler (GPA 3.95, President's List).",
     "location": {
       "city": "Pittsburgh",
       "countryCode": "US",
@@ -27,18 +27,6 @@
   },
   "work": [
     {
-      "name": "Carnegie Mellon University, Visual Design and Engineering Lab (VDEL)",
-      "position": "PhD Researcher",
-      "startDate": "2026-08-01",
-      "endDate": "",
-      "summary": "Advised by Prof. Levent Burak Kara. Developing a graph-native adaptive manufacturing compiler: an executable SysML v2 framework integrating AI agent orchestration, constraint propagation, and GNN surrogates across requirements, structure, fabrication, and supplier layers.",
-      "highlights": [
-        "Executable systems modeling with SysML v2",
-        "AI agent orchestration for design-to-fabrication workflows",
-        "GNN surrogates for manufacturability and cost feasibility"
-      ]
-    },
-    {
       "name": "University of Texas at Tyler, College of Engineering",
       "position": "Undergraduate Research Assistant",
       "startDate": "2023-01-01",
@@ -56,10 +44,7 @@
       "startDate": "2023-01-01",
       "endDate": "2026-05-01",
       "summary": "Assisted faculty and students in the engineering lab. Reverse-engineered industrial devices via CAD as part of undergraduate assistant responsibilities.",
-      "highlights": [
-        "Reverse-engineered industrial devices using SolidWorks and Autodesk Inventor",
-        "Supported lab operations and student projects"
-      ]
+      "highlights": ["Reverse-engineered industrial devices using SolidWorks and Autodesk Inventor", "Supported lab operations and student projects"]
     }
   ],
   "education": [
@@ -140,50 +125,25 @@
       "name": "Engineering Software",
       "level": "Advanced",
       "icon": "fa-solid fa-gear",
-      "keywords": [
-        "SolidWorks",
-        "Autodesk Inventor",
-        "ANSYS",
-        "MATLAB",
-        "Simulink",
-        "LAMMPS",
-        "OVITO"
-      ]
+      "keywords": ["SolidWorks", "Autodesk Inventor", "ANSYS", "MATLAB", "Simulink", "LAMMPS", "OVITO"]
     },
     {
       "name": "Programming",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C",
-        "C++",
-        "Java",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "C", "C++", "Java", "MATLAB"]
     },
     {
       "name": "AI & Machine Learning",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "TensorFlow",
-        "PyTorch",
-        "Scikit-learn",
-        "Neural Networks",
-        "Data Analysis"
-      ]
+      "keywords": ["TensorFlow", "PyTorch", "Scikit-learn", "Neural Networks", "Data Analysis"]
     },
     {
       "name": "Embedded Systems",
       "level": "Intermediate",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "ESP32",
-        "Arduino",
-        "Raspberry Pi Pico",
-        "Sensor Integration"
-      ]
+      "keywords": ["ESP32", "Arduino", "Raspberry Pi Pico", "Sensor Integration"]
     }
   ],
   "languages": [
@@ -202,12 +162,7 @@
     {
       "name": "Research Interests",
       "icon": "fa-solid fa-magnifying-glass",
-      "keywords": [
-        "AI-driven Engineering Design",
-        "Computational Modeling",
-        "Machine Learning for Materials Science",
-        "Embedded Systems"
-      ]
+      "keywords": ["AI-driven Engineering Design", "Computational Modeling", "Machine Learning for Materials Science", "Embedded Systems"]
     }
   ],
   "references": [],
@@ -215,21 +170,14 @@
     {
       "name": "NICU Sensory Bonding Device",
       "summary": "Senior Design capstone project developing a device for NICU patients integrating haptic feedback, scent delivery, and sound with a mobile app interface. Led the software development side of the project.",
-      "highlights": [
-        "Mobile app interface development",
-        "Hardware and software integration",
-        "IEEE-format documentation and FMEA analysis"
-      ],
+      "highlights": ["Mobile app interface development", "Hardware and software integration", "IEEE-format documentation and FMEA analysis"],
       "startDate": "2025-08-01",
       "endDate": "2026-05-01"
     },
     {
       "name": "ANN-Integrated Desalination System",
       "summary": "Developed an Arduino-based desalination system integrated with an artificial neural network for process optimization.",
-      "highlights": [
-        "ANN model development and integration",
-        "Arduino hardware implementation"
-      ],
+      "highlights": ["ANN model development and integration", "Arduino hardware implementation"],
       "startDate": "2024-01-01",
       "endDate": "2024-12-01"
     }

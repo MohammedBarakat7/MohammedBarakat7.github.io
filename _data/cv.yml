@@ -14,7 +14,6 @@
       year: 2026 - present
       description:
         - "Advisor: Prof. Levent Burak Kara, Visual Design and Engineering Lab (VDEL)"
-        - Research focus - graph-native adaptive manufacturing compiler (executable SysML v2 framework)
     - title: B.S. in Mechanical Engineering
       institution: University of Texas at Tyler, Tyler, TX
       year: 2022 - 2026
@@ -59,12 +58,8 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: AI-Driven Manufacturing
+    - title: Applied AI for Engineering
       items:
-        - Executable systems modeling (SysML v2)
-        - Constraint propagation and GNN surrogates
-        - AI agent orchestration for design-to-fabrication workflows
-    - title: Applied ML for Engineering
-      items:
+        - AI-driven engineering design
         - Machine learning for materials science
         - Embedded systems and sensor integration
