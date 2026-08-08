@@ -24,6 +24,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Team Lead & Software Lead, NICU Sensory Bonding Device (Senior Capstone)
+      institution: University of Texas at Tyler
+      year: 2025 - 2026
+      description:
+        - Led design of a device simulating a mother's presence in a NICU incubator via sound, scent, and haptic touch
+        - Built on a Raspberry Pi Pico 2 W with a Wi-Fi-connected mobile app for remote activation
+        - Featured in local news coverage
     - title: Undergraduate Research Assistant
       institution: University of Texas at Tyler, College of Engineering
       year: 2023 - 2026

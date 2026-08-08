@@ -1,16 +1,21 @@
 ---
 layout: page
 title: NICU Sensory Bonding Device
-description: Senior capstone project, University of Texas at Tyler
+description: Senior capstone project, University of Texas at Tyler — team lead
 img:
 importance: 1
 category: work
 ---
 
-A senior design capstone project developing a device to support parent-infant bonding for babies in the NICU, integrating haptic feedback, scent delivery, and sound with a companion mobile app. Mohammed led the software side of the project, from the mobile app interface to system integration with the hardware.
+A senior design capstone project tasked with designing a device that simulates a mother's presence inside a NICU incubator, to support parent-infant bonding when a mother can't be physically present. Mohammed was the team lead and led the software side of the project.
+
+The device emits three key sensory cues a baby would associate with its mother: **sound, scent, and haptic touch**. It runs on a **Raspberry Pi Pico 2 W** and connects over Wi-Fi to a companion mobile app, letting the mother remotely activate any of the three sensory outputs from outside the NICU.
+
+The project was featured in local news coverage.
 
 **Highlights:**
 
-- Mobile app interface development
-- Hardware and software integration across haptic, scent, and audio subsystems
+- Team lead and software lead
+- Raspberry Pi Pico 2 W embedded system driving sound, scent, and haptic outputs
+- Wi-Fi-connected mobile app for remote activation
 - IEEE-format documentation and FMEA (Failure Mode and Effects Analysis)
