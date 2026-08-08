@@ -48,26 +48,21 @@ ninja.data = [{
           section: "News",},{id: "news-starting-my-phd-in-mechanical-engineering-at-carnegie-mellon-university-advised-by-prof-levent-burak-kara-in-the-visual-design-and-engineering-lab-vdel",
           title: 'Starting my PhD in Mechanical Engineering at Carnegie Mellon University, advised by Prof....',
           description: "",
-          section: "News",},{id: "projects-graph-native-adaptive-manufacturing-compiler",
-          title: 'Graph-Native Adaptive Manufacturing Compiler',
-          description: "PhD research, VDEL @ Carnegie Mellon University, advised by Prof. Levent Burak Kara",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_manufacturing_compiler.html";
-            },},{id: "projects-nicu-sensory-bonding-device",
+          section: "News",},{id: "projects-nicu-sensory-bonding-device",
           title: 'NICU Sensory Bonding Device',
           description: "Senior capstone project, University of Texas at Tyler",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_nicu_device.html";
+              window.location.href = "/projects/1_nicu_device.html";
             },},{id: "projects-ann-integrated-desalination-system",
           title: 'ANN-Integrated Desalination System',
           description: "Undergraduate research, University of Texas at Tyler",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_desalination.html";
+              window.location.href = "/projects/2_desalination.html";
             },},{id: "projects-md-simulation-with-machine-learned-potentials",
           title: 'MD Simulation with Machine-Learned Potentials',
           description: "NSF Online Research Experience for Undergraduates (O-REU), Texas A&amp;M University",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_md_simulation.html";
+              window.location.href = "/projects/3_md_simulation.html";
             },},{
         id: 'social-email',
         title: 'email',
