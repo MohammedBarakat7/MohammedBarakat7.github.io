@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -45,8 +45,8 @@ ninja.data = [{
             },},{id: "news-completed-an-nsf-funded-online-research-experience-for-undergraduates-o-reu-at-texas-a-amp-amp-m-university-focusing-on-nanoscale-deformation-in-silicon-using-molecular-dynamics-and-machine-learned-potentials",
           title: 'Completed an NSF-funded Online Research Experience for Undergraduates (O-REU) at Texas A&amp;amp;amp;M University,...',
           description: "",
-          section: "News",},{id: "news-starting-my-phd-in-mechanical-engineering-at-carnegie-mellon-university-advised-by-prof-levent-burak-kara-in-the-visual-design-and-engineering-lab-vdel",
-          title: 'Starting my PhD in Mechanical Engineering at Carnegie Mellon University, advised by Prof....',
+          section: "News",},{id: "news-starting-my-phd-in-mechanical-engineering-at-carnegie-mellon-university",
+          title: 'Starting my PhD in Mechanical Engineering at Carnegie Mellon University.',
           description: "",
           section: "News",},{id: "projects-nicu-sensory-bonding-device",
           title: 'NICU Sensory Bonding Device',
