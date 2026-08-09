@@ -12,6 +12,13 @@
 
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // The pinned, scroll-scrubbed sequence is desktop-only. On mobile, sticky
+  // positioning combined with a 3D perspective is unreliable, and the
+  // collapsing address bar resizes the viewport mid-scroll, which makes a
+  // pinned stage jump. Small and touch screens keep the entrance animation
+  // and skip the scrub entirely.
+  var smallScreen = window.matchMedia && window.matchMedia("(max-width: 850px), (hover: none) and (pointer: coarse)").matches;
+
   var inner = hero.querySelector(".hero-inner");
   var name = hero.querySelector(".hero-name");
   var rule = hero.querySelector(".hero-rule");
@@ -44,7 +51,20 @@
     });
   });
 
-  if (reduce) {
+  // --- Smooth scroll from the cue into the content (all devices) ---
+  if (cue) {
+    cue.addEventListener("click", function (e) {
+      var target = document.getElementById("main-content");
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({
+        behavior: reduce ? "auto" : "smooth",
+        block: "start",
+      });
+    });
+  }
+
+  if (reduce || smallScreen) {
     initReveal();
     return;
   }
@@ -124,16 +144,6 @@
   }, 1700);
 
   update();
-
-  // --- Smooth scroll from the cue into the content ---
-  if (cue) {
-    cue.addEventListener("click", function (e) {
-      var target = document.getElementById("main-content");
-      if (!target) return;
-      e.preventDefault();
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-  }
 
   initReveal();
 

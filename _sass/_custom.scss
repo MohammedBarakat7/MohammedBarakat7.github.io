@@ -173,6 +173,7 @@ hr {
 // That extra height is the runway the scroll sequence plays out over.
 .hero-stage {
   position: relative;
+  overflow-anchor: none;
   height: 200vh;
   height: 200svh;
   margin-top: -3rem;
@@ -391,6 +392,59 @@ html[data-theme="dark"] .hero-enabled #main-content {
   .hero-scroll-line::after {
     animation: none;
     height: 46px;
+  }
+
+  .hero-enabled #main-content {
+    box-shadow: none;
+    padding-top: 0;
+  }
+}
+
+/*******************************************************************************
+ * Mobile hero fallback.
+ * `position: sticky` combined with a 3D perspective is unreliable on mobile
+ * browsers, and the collapsing address bar resizes the viewport mid-scroll,
+ * which makes a scroll-scrubbed pinned stage jump. Small/touch screens get a
+ * normal-flow hero instead: same entrance, no pinning, no scrubbing.
+ ******************************************************************************/
+
+@media (max-width: 850px), (hover: none) and (pointer: coarse) {
+  .hero-stage {
+    height: auto;
+    min-height: 0;
+  }
+
+  .hero {
+    position: static;
+    height: auto;
+    min-height: 92vh;
+    min-height: 92svh;
+    perspective: none;
+  }
+
+  .hero-inner {
+    transform: none !important;
+    transform-style: flat;
+  }
+
+  .hero-name,
+  .hero-tagline {
+    transform: none !important;
+    opacity: 1 !important;
+    letter-spacing: -0.035em !important;
+  }
+
+  .hero-tagline {
+    letter-spacing: 0.01em !important;
+  }
+
+  .hero-rule {
+    width: 210px !important;
+    opacity: 1 !important;
+  }
+
+  .hero-scroll {
+    opacity: 1;
   }
 
   .hero-enabled #main-content {
