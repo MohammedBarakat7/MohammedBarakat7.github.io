@@ -3,6 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: Incoming PhD Student, Mechanical Engineering, Carnegie Mellon University
+hero:
+  enabled: true
+  tagline: Incoming PhD student in Mechanical Engineering at Carnegie Mellon University, working at the intersection of artificial intelligence and physical engineering systems.
 profile:
   align: right
   image: prof_pic.jpg

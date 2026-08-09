@@ -1,8 +1,31 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
+{% if page.hero.enabled %}
+  <section id="hero" class="hero" aria-label="Introduction">
+    <div class="hero-inner">
+      <h1 class="hero-name">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      {% if page.hero.tagline %}
+        <p class="hero-tagline">{{ page.hero.tagline }}</p>
+      {% endif %}
+      <a href="#main-content" class="hero-scroll" aria-label="Scroll to content">
+        <span class="hero-scroll-text">scroll</span>
+        <span class="hero-scroll-line" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+{% endif %}
+
+<div class="post" id="main-content">
+  <header class="post-header{% if page.hero.enabled %} sr-only{% endif %}">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
