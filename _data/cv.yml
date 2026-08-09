@@ -4,7 +4,7 @@
     - name: Full Name
       value: Mohammed Barakat
     - name: Languages
-      value: Arabic (fluent), English (fluent)
+      value: Arabic (fluent), English (fluent), German (beginner)
 
 - title: Education
   type: time_table
@@ -18,32 +18,37 @@
       institution: University of Texas at Tyler, Tyler, TX
       year: 2022 - 2026
       description:
-        - GPA 3.95, President's List
+        - GPA 3.95, President's List (5x)
         - Outstanding Student, College of Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Team Lead & Software Lead, NICU Sensory Bonding Device (Senior Capstone)
-      institution: University of Texas at Tyler
-      year: 2025 - 2026
-      description:
-        - Led design of a device simulating a mother's presence in a NICU incubator via sound, scent, and haptic touch
-        - Built on a Raspberry Pi Pico 2 W with a Wi-Fi-connected mobile app for remote activation
-        - Featured on KLTV
-    - title: Undergraduate Research Assistant
-      institution: University of Texas at Tyler, College of Engineering
-      year: 2023 - 2026
+    - title: REU Research Intern
+      institution: Texas A&M University, Department of Materials Science and Engineering
+      year: Jun 2025 - Aug 2025
       description:
         - Machine-learning-enhanced molecular dynamics simulation of nanoscale silicon deformation
-        - Applied machine learning to CO2 sequestration and hydrogen storage research
-        - Nanostructure modeling and simulation using LAMMPS, OVITO, Atomsk, and Wulffpack
+        - Nanostructure modeling using LAMMPS, OVITO, Atomsk, and Wulffpack
     - title: Lab Assistant
       institution: University of Texas at Tyler, College of Engineering
-      year: 2023 - 2026
+      year: Aug 2024 - May 2026
       description:
+        - Assisted faculty and students in the engineering lab
         - Reverse-engineered industrial devices using SolidWorks and Autodesk Inventor
-        - Supported lab operations and student projects
+    - title: Undergraduate Research Assistant
+      institution: University of Texas at Tyler, College of Engineering
+      year: Oct 2023 - Sep 2025
+      description:
+        - Applied machine learning to CO2 sequestration and subsurface hydrogen storage
+        - Developed a fully autonomous ANN within a portable Arduino desalination system
+        - Developed a novel ultrasound method for non-invasive brain scanning toward tumor identification
+        - Extracted acoustic properties of biological media and assigned them via color segmentation
+    - title: Information Technology Support Specialist
+      institution: University of Texas at Tyler
+      year: Aug 2023 - Aug 2024
+      description:
+        - Provided technical support to students, faculty, and staff across university systems and hardware
 
 - title: Leadership and Service
   type: time_table
@@ -60,7 +65,7 @@
   contents:
     - year: 2026
       items:
-        - President's List, University of Texas at Tyler
+        - President's List (5x), University of Texas at Tyler
         - Outstanding Student, College of Engineering
     - year: 2025
       items:

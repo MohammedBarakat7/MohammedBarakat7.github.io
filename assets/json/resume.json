@@ -27,25 +27,45 @@
   },
   "work": [
     {
-      "name": "University of Texas at Tyler, College of Engineering",
-      "position": "Undergraduate Research Assistant",
-      "startDate": "2023-01-01",
-      "endDate": "2026-05-01",
-      "summary": "Machine-learning-enhanced molecular dynamics simulation of nanoscale silicon deformation, and separately, machine learning applied to CO2 sequestration and hydrogen storage research.",
+      "name": "Texas A&M University, Department of Materials Science and Engineering",
+      "position": "REU Research Intern",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-01",
+      "summary": "NSF Research Experience for Undergraduates (REU) studying nanoscale deformation in silicon using machine-learning-enhanced molecular dynamics simulation.",
       "highlights": [
-        "ML-enhanced MD simulation of nanoscale silicon deformation",
-        "Machine learning applied to CO2 sequestration and hydrogen storage",
-        "Nanostructure modeling using LAMMPS, OVITO, Atomsk, and Wulffpack",
-        "Developed ANN-integrated Arduino desalination system"
+        "Machine-learning-enhanced MD simulation of nanoscale silicon deformation",
+        "Nanostructure modeling and analysis using LAMMPS, OVITO, Atomsk, and Wulffpack",
+        "Presented project poster at Texas A&M University"
       ]
     },
     {
       "name": "University of Texas at Tyler, College of Engineering",
       "position": "Lab Assistant",
-      "startDate": "2023-01-01",
+      "startDate": "2024-08-01",
       "endDate": "2026-05-01",
       "summary": "Assisted faculty and students in the engineering lab. Reverse-engineered industrial devices via CAD.",
       "highlights": ["Reverse-engineered industrial devices using SolidWorks and Autodesk Inventor", "Supported lab operations and student projects"]
+    },
+    {
+      "name": "University of Texas at Tyler, College of Engineering",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2023-10-01",
+      "endDate": "2025-09-01",
+      "summary": "Machine learning research across carbon sequestration, subsurface hydrogen storage, autonomous embedded systems, and non-invasive ultrasound brain imaging.",
+      "highlights": [
+        "Applied machine learning to CO2 sequestration and subsurface hydrogen storage",
+        "Developed a fully autonomous ANN within a portable Arduino desalination system",
+        "Developed a novel ultrasound method for non-invasive brain scanning toward tumor identification and future removal",
+        "Extracted acoustic properties of biological media and assigned them via color segmentation"
+      ]
+    },
+    {
+      "name": "University of Texas at Tyler",
+      "position": "Information Technology Support Specialist",
+      "startDate": "2023-08-01",
+      "endDate": "2024-08-01",
+      "summary": "Provided technical support to students, faculty, and staff across university systems and hardware.",
+      "highlights": []
     }
   ],
   "education": [
@@ -87,10 +107,10 @@
       "summary": "Selected as a Texas Space Grant Consortium Scholar for 2025."
     },
     {
-      "title": "President's List",
+      "title": "President's List (5x)",
       "date": "2026-05-01",
       "awarder": "University of Texas at Tyler",
-      "summary": "Awarded each semester for achieving a GPA of 4.0 or above."
+      "summary": "Awarded five times for achieving a GPA of 4.0 or above in a semester."
     },
     {
       "title": "Outstanding Student in College of Engineering",
@@ -162,6 +182,11 @@
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],
