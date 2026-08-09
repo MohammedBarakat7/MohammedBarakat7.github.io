@@ -164,22 +164,36 @@ hr {
 
 /*******************************************************************************
  * Home page hero.
- * Masked word entrance on load, differential parallax + drawn rule on scroll.
+ * A pinned stage: the title holds in place while scroll scrubs a sequence that
+ * pushes the viewer "through" the name before the page resolves underneath.
  * Disable by setting `hero.enabled: false` in _pages/about.md.
  ******************************************************************************/
 
+// The stage is taller than the viewport; the hero sticks while it scrolls past.
+// That extra height is the runway the scroll sequence plays out over.
+.hero-stage {
+  position: relative;
+  height: 200vh;
+  height: 200svh;
+  margin-top: -3rem;
+}
+
 .hero {
-  min-height: 100vh;
-  min-height: 100svh;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
   display: flex;
   align-items: center;
-  margin-top: -3rem;
-  overflow: hidden;
+  perspective: 1000px;
+  perspective-origin: 50% 45%;
 }
 
 .hero-inner {
   width: 100%;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
 }
 
 .hero-name {
@@ -190,10 +204,11 @@ hr {
   letter-spacing: -0.035em;
   margin: 0 0 1.4rem;
   color: var(--global-text-color);
-  will-change: transform;
+  transform-origin: 0% 50%;
+  will-change: transform, opacity, letter-spacing;
 }
 
-// Each word sits inside a clipping mask so it can rise into view.
+// Each word is masked so it can rise into view on load.
 .hero-word {
   display: inline-block;
   overflow: hidden;
@@ -215,15 +230,13 @@ hr {
   opacity: 1;
 }
 
-// Rust rule that grows on load, then tracks scroll progress.
 .hero-rule {
   height: 2px;
   width: 0;
-  max-width: 210px;
   background-color: var(--global-theme-color);
   margin: 0 0 1.6rem;
   transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.35s;
-  will-change: width;
+  will-change: width, transform;
 }
 
 .hero.is-ready .hero-rule {
@@ -244,7 +257,7 @@ hr {
   transition:
     opacity 0.9s ease 0.55s,
     transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.55s;
-  will-change: transform;
+  will-change: transform, opacity;
 }
 
 .hero.is-ready .hero-tagline {
@@ -256,7 +269,7 @@ hr {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   text-decoration: none;
   border-bottom: none !important;
   color: var(--global-text-color-light);
@@ -311,6 +324,20 @@ hr {
   }
 }
 
+// The page content rides up over the pinned hero on its own surface, so the
+// hero appears to sit behind the site rather than above it.
+.hero-enabled #main-content {
+  position: relative;
+  z-index: 2;
+  background-color: var(--global-bg-color);
+  padding-top: 2.5rem;
+  box-shadow: 0 -32px 60px -30px rgba(28, 25, 23, 0.16);
+}
+
+html[data-theme="dark"] .hero-enabled #main-content {
+  box-shadow: 0 -32px 60px -30px rgba(0, 0, 0, 0.55);
+}
+
 // Content blocks rise as they enter the viewport.
 .hero-reveal {
   opacity: 0;
@@ -326,14 +353,26 @@ hr {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .hero-stage {
+    height: auto;
+  }
+
   .hero {
+    position: static;
+    height: auto;
     min-height: 60vh;
+    perspective: none;
+  }
+
+  .hero-inner,
+  .hero-name,
+  .hero-tagline {
+    transform: none !important;
+    opacity: 1 !important;
   }
 
   .hero-word > span,
   .hero.is-ready .hero-word > span,
-  .hero-tagline,
-  .hero.is-ready .hero-tagline,
   .hero-scroll,
   .hero.is-ready .hero-scroll,
   .hero-reveal,
@@ -352,5 +391,10 @@ hr {
   .hero-scroll-line::after {
     animation: none;
     height: 46px;
+  }
+
+  .hero-enabled #main-content {
+    box-shadow: none;
+    padding-top: 0;
   }
 }

@@ -2,25 +2,27 @@
 layout: default
 ---
 {% if page.hero.enabled %}
-  <section id="hero" class="hero" aria-label="Introduction">
-    <div class="hero-inner">
-      <h1 class="hero-name">
-        {% if site.title == 'blank' %}
-          {{ site.first_name }}
-          {{ site.middle_name }}
-          {{ site.last_name }}
-        {% else %}
-          {{ site.title }}
+  <section id="hero-stage" class="hero-stage" aria-label="Introduction">
+    <div id="hero" class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-name">
+          {% if site.title == 'blank' %}
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <div class="hero-rule" aria-hidden="true"></div>
+        {% if page.hero.tagline %}
+          <p class="hero-tagline">{{ page.hero.tagline }}</p>
         {% endif %}
-      </h1>
-      <div class="hero-rule" aria-hidden="true"></div>
-      {% if page.hero.tagline %}
-        <p class="hero-tagline">{{ page.hero.tagline }}</p>
-      {% endif %}
-      <a href="#main-content" class="hero-scroll" aria-label="Scroll to content">
-        <span class="hero-scroll-text">scroll</span>
-        <span class="hero-scroll-line" aria-hidden="true"></span>
-      </a>
+        <a href="#main-content" class="hero-scroll" aria-label="Scroll to content">
+          <span class="hero-scroll-text">scroll</span>
+          <span class="hero-scroll-line" aria-hidden="true"></span>
+        </a>
+      </div>
     </div>
   </section>
 {% endif %}
