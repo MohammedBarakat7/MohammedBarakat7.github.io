@@ -1,0 +1,163 @@
+/*******************************************************************************
+ * Ink & rust: typography and spacing overrides.
+ * Loaded last so it wins over theme defaults. Delete this file (and its entry
+ * in assets/css/main.scss) to revert to the stock al-folio look.
+ ******************************************************************************/
+
+$font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+$font-sans:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Helvetica,
+  Arial,
+  sans-serif;
+
+body {
+  font-family: $font-sans;
+  font-size: 1rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Serif headings give the page an editorial voice instead of a dashboard one.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.post-description,
+.navbar-brand.title {
+  font-family: $font-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+h1,
+.post-title {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.65rem;
+  line-height: 1.3;
+  margin-top: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+// Site name in the navbar: larger, serif, quiet.
+.navbar-brand.title {
+  font-size: 1.35rem;
+  letter-spacing: -0.015em;
+}
+
+// Nav links: small, lowercase, spaced out. Reads considered rather than default.
+.navbar .nav-link {
+  font-family: $font-sans;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+}
+
+// Body copy: roomier measure and rhythm.
+.post p,
+article p {
+  margin-bottom: 1.15rem;
+  line-height: 1.75;
+}
+
+// Subtitle under the site name on the about page.
+.post-description {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  margin-bottom: 1.4rem;
+}
+
+// Links: underline on hover only, so paragraphs stay calm.
+article a,
+.post a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(154, 52, 18, 0.35);
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+
+  &:hover {
+    border-bottom-color: var(--global-theme-color);
+  }
+}
+
+// Profile block breathing room.
+.profile {
+  margin-bottom: 1.5rem;
+
+  img {
+    border-radius: 4px;
+  }
+}
+
+// News / announcements: tighter, quieter, less card-like.
+.news {
+  th,
+  td {
+    padding: 0.5rem 1rem 0.5rem 0;
+    font-size: 0.95rem;
+  }
+}
+
+// CV cards: flatten the heavy bootstrap card look.
+.cv .card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  box-shadow: none;
+  background-color: var(--global-card-bg-color);
+}
+
+.cv .card-title {
+  font-family: $font-serif;
+  font-size: 1.3rem;
+}
+
+// Project cards: soften corners, drop the drop shadow.
+.card {
+  border-radius: 6px;
+}
+
+.grid-item .card {
+  box-shadow: none;
+  border: 1px solid var(--global-divider-color);
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+  }
+}
+
+// Footer: quieter.
+footer.fixed-bottom {
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+
+// Horizontal rules as hairlines.
+hr {
+  border-top: 1px solid var(--global-divider-color);
+  opacity: 1;
+  margin: 2rem 0;
+}

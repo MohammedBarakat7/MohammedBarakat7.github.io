@@ -34,7 +34,18 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+// --- Ink & rust palette ---
+$rust-color: #9a3412 !default; // burnt orange accent (light mode)
+$rust-color-light: #c2601f !default; // brighter rust for dark mode
+$paper-color: #faf9f7 !default; // warm off-white page bg
+$paper-card-color: #ffffff !default;
+$ink-color: #1c1917 !default; // warm near-black text
+$ink-muted-color: #78716c !default; // warm grey secondary text
+$ink-dark-bg: #1c1917 !default; // dark mode page bg
+$ink-dark-card: #292524 !default; // dark mode card bg
+$ink-dark-text: #e7e5e4 !default; // dark mode body text
+
+$code-bg-color-light: rgba($rust-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
