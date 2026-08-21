@@ -1,18 +1,1 @@
-(() => {
-  const root = document.documentElement;
-  const button = document.querySelector('.theme-toggle');
-  const year = document.getElementById('year');
-  const storedTheme = localStorage.getItem('theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-  const initialTheme = storedTheme || (prefersDark ? 'dark' : 'light');
-  root.dataset.theme = initialTheme;
-
-  button?.addEventListener('click', () => {
-    const nextTheme = root.dataset.theme === 'dark' ? 'light' : 'dark';
-    root.dataset.theme = nextTheme;
-    localStorage.setItem('theme', nextTheme);
-  });
-
-  if (year) year.textContent = new Date().getFullYear();
-})();
+(()=>{const e=document.documentElement,t=document.querySelector(".theme-toggle"),a=document.getElementById("year"),m=localStorage.getItem("theme"),d=window.matchMedia("(prefers-color-scheme: dark)").matches,o=m||(d?"dark":"light");e.dataset.theme=o,t?.addEventListener("click",(()=>{const t="dark"===e.dataset.theme?"light":"dark";e.dataset.theme=t,localStorage.setItem("theme",t)})),a&&(a.textContent=(new Date).getFullYear())})();
